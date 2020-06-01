@@ -25,8 +25,8 @@ texture:
   navigation:
     - title: Resume
       url: "/resume"
-    - title: Education
-      url: "/education"
+    - title: Posts
+      url: "/posts"
     - title: Projects
       url: "/projects"
 

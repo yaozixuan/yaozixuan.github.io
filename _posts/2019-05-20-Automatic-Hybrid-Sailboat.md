@@ -15,6 +15,9 @@ algorithm to control the ASV’s cruise trajectory according to the collected AS
 • Analyzed the energy data and cruise trajectory to optimize the energy usage with the chosen heading angle.
 
 • Publication: Z. Zhang, Z. Yao, Q. Sun et al [‘Energy Optimization Based on Automatic Hybrid Sailboat’](https://ieeexplore.ieee.org/document/8664880)
+
 Oral: 2018 IEEE International Conference on Robotics and Biomimetics in Kuala Lumpur, Malaysia
 
-<iframe src="https://yaozixuan.github.io//8664880.pdf" style="width:750px; height:970px;" frameborder="0"></iframe>
+<iframe src="https://yaozixuan.github.io/0
+8664880.pdf" style="width:750px; height:970px;" frameborder="0"></iframe>
+

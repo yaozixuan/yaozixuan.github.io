@@ -13,7 +13,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 
-permalink: /posts/:title/
+permalink: /:layout/:title/
 texture:
   title: Zixuan (Vincent) Yao
   tagline: Developer. Software Engineer
@@ -28,9 +28,9 @@ texture:
     - title: Resume
       url: "/resume"
     - title: Projects
-      url: "/projects"
+      url: "/project"
     - title: Posts
-      url: "/posts"
+      url: "/post"
 
   # generate social links in footer
   social_links:

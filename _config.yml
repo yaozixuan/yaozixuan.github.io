@@ -13,10 +13,10 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 
-permalink: /:path/:title/
+permalink: /:title/
 texture:
   title: Zixuan (Vincent) Yao
-  tagline: Developer. Software Engineer
+  tagline: Student ==> Software Engineer
   date_format: "%b %-d, %Y"
   style: blue
   showNav: true
@@ -29,14 +29,13 @@ texture:
       url: "/resume"
     - title: Projects
       url: "/projects"
-    - title: Posts
-      url: "/posts"
 
   # generate social links in footer
   social_links:
     # twitter: thelehhman
     github:  yaozixuan
     linkedIn: in/yaozixuan
+    email: yao@jhu.edu
     rss: rss
  
 
@@ -51,4 +50,7 @@ remote_theme: thelehhman/texture
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-github-metadata
 #  - jekyll-feed
+
+repository: yaozixuan/project

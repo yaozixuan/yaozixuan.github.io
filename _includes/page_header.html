@@ -1,15 +1,30 @@
 <div class="container">
-	<h1>{{ site.texture.title }}</h1>
-	<h2>{{ site.texture.tagline }}</h2>
-	<ul class="social">
-		{%- if site.texture.social_links.github -%}
-			<a href="https://github.com/{{ site.texture.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
-		{%- endif -%}
-		{%- if site.texture.social_links.linkedIn -%}
-			<a href="https://linkedin.com/{{ site.texture.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
-		{%- endif -%}
-		{%- if site.texture.social_links.twitter -%}
-			<a href="https://twitter.com/{{ site.texture.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
-		{%- endif -%}
-	</ul>
+	<div class="left">
+		<h1>{{ site.texture.title }}</h1>
+		<h2>{{ site.texture.tagline }}</h2>
+		<ul class="social">
+			{%- if site.texture.social_links.github -%}
+				<a href="https://github.com/{{ site.texture.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
+			{%- endif -%}
+			{%- if site.texture.social_links.linkedIn -%}
+				<a href="https://linkedin.com/{{ site.texture.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
+			{%- endif -%}
+			{%- if site.texture.social_links.twitter -%}
+				<a href="https://twitter.com/{{ site.texture.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
+			{%- endif -%}
+			{%- if site.texture.social_links.email -%}
+				<a href="mailto:{{ site.texture.social_links.email }}"><li><i class="fa fa-envelope-square"></i></li></a>
+			{%- endif -%}
+		</ul>
+	</div>
+	<div class="right">
+		<img title="Zixuan Yao" src="/profile.jpg" class="round_icon" alt="Zixuan Yao">
+		<!-- <span>Hi, this is Zixuan Yao. Welcome to my blog. I hope you will enjoy it.</span>
+		<br>
+		You can contact me via:
+		<a href="mailto:zhouqianren.dark@gmail.com" title="mailto: zhouqianren.dark@gmail.com">Email</a> /
+		<a href="https://github.com/kradnangel" title="GithubID: kradnangel">Github</a> /
+		<a href="https://twitter.com/Mole_Ex" title="TwitterID: Mole_Ex">Twitter</a> -->
+	</div>
 </div>
+
